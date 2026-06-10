@@ -12,9 +12,9 @@ Predicting sports outcomes is a clean way to demonstrate the parts of ML that ac
 
 | Stage | What it does |
 |-------|--------------|
-| `src/scraper.py` | Pulls regular-season + playoff game logs for all 30 NBA teams from the official stats API and writes a single stacked dataset. |
-| `src/model.py` | Builds leakage-safe rolling features, engineers opponent-relative differences, trains a regularized logistic regression, and evaluates with time-series CV. |
-| `src/predict.py` | Trains on the full league and outputs a win probability for a specific matchup. |
+| `scraper.py` | Pulls regular-season + playoff game logs for all 30 NBA teams from the official stats API and writes a single stacked dataset. |
+| `model.py` | Builds leakage-safe rolling features, engineers opponent-relative differences, trains a regularized logistic regression, and evaluates with time-series CV. |
+| `predict.py` | Trains on the full league and outputs a win probability for a specific matchup. |
 
 ## Key engineering decisions
 
